@@ -1,2 +1,1 @@
-# byerwall
-ByerWall is a simple and intuitive GUI-based tool designed to assist in bypassing CGNAT.
+![ByerWall Banner](https://i.imgur.com/dksZAIj.png)
