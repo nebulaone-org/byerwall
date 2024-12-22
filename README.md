@@ -1,6 +1,6 @@
-![ByerWall Banner](https://i.imgur.com/dksZAIj.png)
+![Byerwall Banner](https://i.imgur.com/dksZAIj.png)
 
-# ByerWall
+# Byerwall
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/nebulaone-org/byerwall?label=Latest%20Release)
 ![GitHub issues](https://img.shields.io/github/issues/nebulaone-org/byerwall?label=Issues)
@@ -8,7 +8,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/nebulaone-org/byerwall?label=Stars)
 ![GitHub forks](https://img.shields.io/github/forks/nebulaone-org/byerwall?label=Forks)
 
-**ByerWall** is a simple and intuitive GUI-based tool designed to assist in bypassing CGNAT by generating configuration files for [**FRP (Fast Reverse Proxy)**](https://github.com/fatedier/frp) and running the FRP client.
+**Byerwall** is a simple and intuitive GUI-based tool designed to assist in bypassing CGNAT by generating configuration files for [**FRP (Fast Reverse Proxy)**](https://github.com/fatedier/frp) and running the FRP client.
 
 Features:
 - Create custom proxy entries with options for TCP, UDP, or both protocols.
