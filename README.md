@@ -25,6 +25,8 @@ To Do (Hopefully Coming Soon!):
 # How to install/use!
 ## Windows
 Windows installation is easy, grab the latest .zip file from the [releases](https://github.com/nebulaone-org/byerwall/releases/) page, unzip and run the executable file, this will open the GUI and you're set to go!
+### Server
+To run a server on Windows for the Reverse Proxy, it is impractical, however, you can install the full FRP stack [here](https://github.com/fatedier/frp/releases/download/v0.61.1/frp_0.61.1_windows_amd64.zip) and run the server.
 
 ## Linux
 Linux has two methods, the CLI method and the UI method.
@@ -42,7 +44,6 @@ sudo mv byerwall /usr/local/bin
 byerwall 159.65.51.32:7000 25565:25565 25566:25566 --run # If in PATH
 ./byerwall 159.65.51.32:7000 25565:25565 25566:25566 --run # If in Directory
 ```
-
 ### GUI
 **1)** Get the latest GUI Binaries
 ```bash
@@ -57,6 +58,15 @@ sudo mv byerwall-ui /usr/local/bin
 byerwall-ui
 ./byerwall-ui
 ```
+### Server
+Running the server on linux is incredibly simple! Simply follow the instructions/commands below (this may vary depending on distro, however very slightly, and if you know your distro well, you'll know what to do!)
+```bash
+wget https://github.com/nebulaone-org/byerwall/releases/download/v0.0.1-alpha/byerwall-server-linux.zip
+unzip byerwall-server-linux.zip
+chmod +x byerwall-server.sh
+./byerwall-server.sh
+```
+
 
 ## Use Case
 Why and what is this for? After switching my ISP, I found out I couldn't play games I used to love to play! This meant I couldn't host ARMA 3 Servers, Satisfactory Servers, or anything that typically requires "UPnP", this is because my new ISP integrated CGNAT, meaning we were not assigned a Private IP, therefore we couldn't play certain games. Nowadays, this can happen alot as some ISPs will not assign Public IPv4 due to the shortage, so the best way to circumnavigate this fiasco is via a reverse proxy. By far the easiest out there is [FastReverseProxy](https://github.com/fatedier/frp) by [fatedier](https://github.com/fatedier). Luckily, I managed to get this to work and solve my issue after reading the documentation, however some people may not have this patience, so I bundled it into a nice, lightweight UI!
